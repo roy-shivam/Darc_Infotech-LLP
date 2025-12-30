@@ -1,0 +1,18 @@
+.icon{
+  width: 36px;
+  height: 36px;
+  border-radius: 14px;
+  display:grid;
+  place-items:center;
+  background: rgba(11,95,255,.10);
+  border: 1px solid rgba(11,95,255,.18);
+}
+.icon svg{
+  width: 18px;
+  height: 18px;
+  stroke: rgba(15,23,42,.85);
+  stroke-width: 2;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}

@@ -1,0 +1,32 @@
+.section-heading{
+  display:grid;
+  gap: 10px;
+  margin: 0 auto 18px;
+  max-width: 720px;
+}
+.section-heading--left{ text-align: left; margin-left: 0; }
+.section-heading--center{ text-align: center; }
+.section-heading__eyebrow{
+  display:inline-flex;
+  justify-content:center;
+  width: fit-content;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(11,95,255,.10);
+  border: 1px solid rgba(11,95,255,.18);
+  color: rgba(15,23,42,.9);
+  font-weight: 900;
+  font-size: 12px;
+  letter-spacing: .3px;
+}
+.section-heading--left .section-heading__eyebrow{ justify-content:flex-start; }
+.section-heading__title{
+  margin: 0;
+  font-size: clamp(20px, 2.2vw, 30px);
+  letter-spacing: -0.4px;
+}
+.section-heading__subtitle{
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.6;
+}

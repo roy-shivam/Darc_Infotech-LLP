@@ -1,0 +1,35 @@
+.workshops{ padding: 28px 0; }
+.workshops__grid{
+  display:grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+}
+@media (max-width: 1100px){
+  .workshops__grid{ grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 620px){
+  .workshops__grid{ grid-template-columns: 1fr; }
+}
+.workshops__thumb{ position: relative; }
+.workshops__thumb img{
+  height: 150px;
+  width: 100%;
+  object-fit: cover;
+}
+.workshops__tag{
+  position:absolute;
+  top: 10px;
+  left: 10px;
+  background: rgba(255,255,255,.85);
+  border: 1px solid rgba(15,23,42,.12);
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-weight: 900;
+  font-size: 12px;
+}
+.workshops__body{ padding: 14px 14px 0; display:grid; gap: 6px; }
+.workshops__title{ margin: 0; font-size: 16px; }
+.workshops__level{ color: var(--muted2); font-weight: 800; font-size: 12px; }
+.workshops__desc{ margin: 0; color: var(--muted); line-height: 1.6; font-size: 13px; }
+.workshops__footer{ padding: 12px 14px 14px; }
+.workshops__more{ display:flex; justify-content:center; margin-top: 16px; }
