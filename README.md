@@ -1,4 +1,4 @@
-# Landing Site (React + Vite)
+# Darc Infotech LLP (React + Vite)
 
 This project is a **clean, original** landing page template inspired by common education/training sites.
 It intentionally avoids copying any proprietary design assets or exact site text.
