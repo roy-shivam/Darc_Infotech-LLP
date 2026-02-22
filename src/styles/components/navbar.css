@@ -3,7 +3,7 @@
   top: 0;
   z-index: 50;
   backdrop-filter: blur(12px);
-  background: rgba(246, 249, 255, 0.78);
+  background: #f8f9fa;
   border-bottom: 1px solid rgba(15,23,42,.10);
 }
 .nav__inner{
@@ -17,13 +17,11 @@
 .nav__logo{
   width: 42px; height: 42px;
   border-radius: 14px;
-  display:grid; place-items:center;
-  color: #fff; font-weight: 1000;
-  background: linear-gradient(135deg, var(--primary), var(--primary2));
+  object-fit: cover;
   box-shadow: 0 12px 20px rgba(11,95,255,.22);
 }
 .nav__brandText{ display:grid; line-height: 1.1; }
-.nav__brandName{ font-weight: 1000; letter-spacing: -0.2px; }
+.nav__brandName{ font-weight: 1000; letter-spacing: -0.2px; color: rgba(15,23,42,.9); }
 .nav__brandTag{ font-size: 11px; color: var(--muted2); font-weight: 700; }
 
 .nav__burger{
@@ -73,7 +71,7 @@
     left: 0;
     right: 0;
     top: 68px;
-    background: rgba(246, 249, 255, 0.92);
+    background: #f8f9fa;
     border-bottom: 1px solid rgba(15,23,42,.10);
     display:none;
     flex-direction: column;

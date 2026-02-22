@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="container footer__grid">
         <div>
           <div className="footer__brand">
-            <div className="footer__logo" aria-hidden="true">E</div>
+            <img src="/assets/logo.png" alt={`${brand.name} logo`} className="footer__logo" />
             <div>
               <div className="footer__name">{brand.name}</div>
               <div className="footer__tag">{brand.tagline}</div>
@@ -19,8 +19,8 @@ export default function Footer() {
           </p>
           <div className="footer__social">
             {contactInfo.socials.map((s) => (
-              <a key={s.label} href={s.href} target="_blank" rel="noreferrer">
-                {s.label}
+              <a key={s.label} href={s.href} target="_blank" rel="noreferrer" title={s.label} className="footer__socialLink">
+                <i className={s.icon}></i>
               </a>
             ))}
           </div>

@@ -17,7 +17,7 @@ export default function Navbar() {
     <header className="nav">
       <div className="container nav__inner">
         <Link to="/" className="nav__brand" aria-label={`${brand.name} home`}>
-          <div className="nav__logo" aria-hidden="true">E</div>
+          <img src="/assets/logo.png" alt={`${brand.name} logo`} className="nav__logo" />
           <div className="nav__brandText">
             <div className="nav__brandName">{brand.name}</div>
             <div className="nav__brandTag">{brand.tagline}</div>

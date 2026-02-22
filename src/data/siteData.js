@@ -1,6 +1,6 @@
 export const brand = {
-  name: "YourBrand",
-  tagline: "Future-ready learning for modern careers",
+  name: "DARC Infotech",
+  tagline: "Develop Accuire Rise and Connect",
   primaryCta: { label: "Enroll Today", to: "/enroll" },
 };
 
@@ -231,13 +231,13 @@ export const highlights = {
 };
 
 export const contactInfo = {
-  address: "C-101, Main Road, Your City, Your State, 000000",
-  phone: "+91 90000 00000",
-  email: "hello@yourbrand.com",
+  address: "House :- 39, Ashok Nagar Kankarbagh, Patna, Bihar, 800020",
+  phone: "+91 9430916250",
+  email: "info@darcinfotech.com",
   socials: [
-    { label: "Instagram", href: "#" },
-    { label: "LinkedIn", href: "#" },
-    { label: "YouTube", href: "#" },
+    { label: "Instagram", href: "https://www.instagram.com/darc_infotech/?hl=en", icon: "fa-brands fa-instagram" },
+    { label: "LinkedIn", href: "https://www.linkedin.com/company/darc-infotech/posts/?feedView=all", icon: "fa-brands fa-linkedin" },
+    { label: "YouTube", href: "#", icon: "fa-brands fa-youtube" },
   ],
   quickLinks: [
     { label: "Reviews", to: "/reviews" },
